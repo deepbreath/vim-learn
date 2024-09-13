@@ -1,0 +1,21 @@
+// <C-a> 与 <C-x> 对数字进行 增加 和减少 光标在数字上则直接增减，如果不在数字上则 正向查找一个数字
+.blog, .news { background-image: url("/sprite.png")}
+.blog { background-position: 0px 0px}
+.news { background-position: -80px 0px}
+.news { background-position: -170px 0px}
+Delete more than one word
+l have some more questions
+//操作符 + 动作命令=操作
+
+      用来测试段落信息的删除修改
+      测试生成段落
+      c       修改
+      d       删除
+      y       复制到寄存器
+      g~      反转大小写
+      gu      转换为小写
+      gU      转换为大写
+      >       增加缩进
+      <       减少缩进
+      =       自动缩进
+      ！       使用外部程序过滤 motion 所跨的行

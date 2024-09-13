@@ -1,0 +1,4 @@
+//db 删除从光标起始位置到单子开头的内容
+// b 将光标移动到单词的开头 dw 删除单词执行
+// daw 可以理解成 delete a word 删除一个单词
+The end is nigh
