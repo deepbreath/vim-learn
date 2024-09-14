@@ -1,0 +1,8 @@
+//将书名插入到最后一行，已补全改行
+// yt, 将 “Practical Vim” 复制到专有的寄存器中， t{char} 正向移动到 {char} 所在位置前一个字符上
+// jA空格 向下移动并输入
+// <C-r>0 将复制的内容移动到光标所在位置
+Practical Vim,by Drew Neil
+read drew neil's  Practical Vim.
+测试一个段落服直选中的内容 Practical Vim 可以直接在插入模式下使用
+Practical Vim

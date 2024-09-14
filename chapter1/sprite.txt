@@ -2,7 +2,7 @@
 .blog, .news { background-image: url("/sprite.png")}
 .blog { background-position: 0px 0px}
 .news { background-position: -80px 0px}
-.news { background-position: -170px 0px}
+.news { background-position: -150px 10px}
 Delete more than one word
 l have some more questions
 //操作符 + 动作命令=操作
