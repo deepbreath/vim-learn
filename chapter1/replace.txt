@@ -1,0 +1,7 @@
+//tips 19 使用替换模式替换已有文本
+Test File Jiu Shan Found More questions
+Test
+
+//使用 R 替换光标下的内容
+Typing in Insert mode extends the line,but in Replace mode
+the line length doesn't change.
