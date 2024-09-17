@@ -1,0 +1,10 @@
+//Tips 25 修改列文本
+//可视化模式下 选中 内容 进行修改，可以统一替换？
+//<C-v>jje 选中 三行 images
+//c 删除选中的内容，并进入插入模式
+//输入 compents
+//<Esc> 前面选中的内容会被全部替换
+
+li.one   a{ background-image: url('/images/sprite.png');}
+li.two   a{ background-image: url('/images/sprite.png');}
+li.three a{ background-image: url('/images/sprite.png');}

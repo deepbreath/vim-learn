@@ -1,0 +1,23 @@
+//TIPS 29 使用 ‘:t’ 和 ‘:m’ 命令复制和移动行
+:copy 命令(简写:t) 让我们可以把一行或者多行从文档的一部分复制到另外一部分，而:move
+ 命令则可以让我们把一行或多移到其他位置
+ :6t        把第 6 行复制到当前行的下方
+ :t6        把当前行复制到 第 6 行的下方
+ :t.        为当前行创建一个副本(当前操作不存覆盖寄存器，yyp会操作寄存器)
+ :t$        把当前行复制到文本结尾
+ :'<,'>t0   把高亮选中的行复制到文件开头
+
+:move 命令看上去与 :copy 相似,t 和 m
+
+ Shopping List
+    Beauty Parlor
+        Buy nail polish remover
+        Buy nails
+
+    Hardware Store
+        Buy new hammer
+        Buy new hammer
+        Buy new hammer
+        Buy new hammer
+        Buy new hammer
+        Buy new hammer
