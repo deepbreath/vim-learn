@@ -6,14 +6,15 @@
  :t.        为当前行创建一个副本(当前操作不存覆盖寄存器，yyp会操作寄存器)
  :t$        把当前行复制到文本结尾
  :'<,'>t0   把高亮选中的行复制到文件开头
+ 重复上次的 Ex 命令 使用,  @: 即可
 
 :move 命令看上去与 :copy 相似,t 和 m
 
  Shopping List
+
     Beauty Parlor
         Buy nail polish remover
         Buy nails
-
     Hardware Store
         Buy new hammer
         Buy new hammer
