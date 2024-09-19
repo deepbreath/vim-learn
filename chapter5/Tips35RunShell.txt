@@ -1,0 +1,24 @@
+使用 Vim 调用外部程序 可以把缓冲区内的内容作为标准输入发送给一个外部命令，或者把外部命令导入到缓冲区里
+//:!ls 和 :ls 不同之处，前者调用的是 shell 的 ls 命令，然而 :ls 是调用 Vim 的内置命令
+//% 符号 代表当前文件名
+:!{cmd} 这种语法适用于执行一次性命令，会回显命令的输出，如果产生大量输出，需要使用
+    :read !{cmd} 读取
+    :write !{cmd} 写入
+
+    :write !sh
+    :write ! sh
+    :write! sh
+    前两个命令都会把缓冲区的内容传给外部的 sh 命令作为标准输入，
+    最后一条 :write! sh 命令把缓冲区内容写到一个名为 sh 的文件，
+    此处的! 会强制覆盖掉 sh文件中的内容，使用的时候需要小心
+
+执行交互 shell 命令 需要使用
+:shell 进入shell 操作
+使用 exit 退出 shell 并且返回 Vim
+
+Vim 可以很方便的调用 Shell 命令
+:shell          启动一个shell 输入 exit 返回 vim
+:!{cmd}         在 shell 中执行 {cmd}
+:read !{cmd}    在 shell 中执行 {cmd},并把其标准输出插入到光标下方
+:[range]write !{cmd} 在 shell 中执行 {cmd},并把其标准输出插入到光标下方
+:[range]!{filter}    使用外部程序 {filter} 过滤指定的 [range]
